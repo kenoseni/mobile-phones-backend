@@ -1,0 +1,40 @@
+{
+  "name": "mobile-phones-backend",
+  "version": "1.0.0",
+  "description": "This is an application to search and buy mobile phones",
+  "main": "server.js",
+  "scripts": {
+    "start-dev": "nodemon --exec babel-node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenoseni/mobile-phones-backend.git"
+  },
+  "author": "Olusola Oseni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenoseni/mobile-phones-backend/issues"
+  },
+  "homepage": "https://github.com/kenoseni/mobile-phones-backend#readme",
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.12",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "nodemon": "^2.0.4"
+  }
+}
